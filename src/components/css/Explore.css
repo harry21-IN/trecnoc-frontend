@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color:#121316; */
+}
+
+body {
+    background-color: #121316;
+}
+.explore-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-expand {
+    /* gap: 200px; */
+    width: 43%;
+}
+.head {
+    display: flex;
+    margin-top: 150px;
+    background-color: #121316;
+    flex-wrap: wrap;
+}
+
+.navbar-search {
+    border-radius: 1.5rem;
+    background-color: rgba(18, 19, 22);
+}
+.navbar-search > input {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    background-color: rgba(18, 19, 22);
+    border-radius: 1.5rem;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar-back {
+    background-color: transparent;
+}
+
+/* .backbtn {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+.backbtn:active {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+} */
+.btn {
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+.btn-primary1 {
+    vertical-align: middle;
+    background-color: transparent;
+    color: white;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.btn-primary1:hover {
+    border: 1px solid white;
+}
+.btn-primary1:active {
+    background-color: #0077cc;
+}
+.btn-primary {
+    background-color: white;
+    color: #0077cc;
+}

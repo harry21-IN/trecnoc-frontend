@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.home-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    background-color: rgb(235, 235, 235);
+    color: black;
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.home-navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+/* .home-navbar-logout {
+    border: 2px solid transparent;
+    transition: 0.3s;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    color: white;
+    background-color: #0077cc;
+} */
+/* .home-navbar-logout:hover {
+    color: #0077cc;
+    background-color: white;
+    border: 2px solid #0077cc;
+} */
+
+/* sidebar  */

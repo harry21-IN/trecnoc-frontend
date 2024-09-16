@@ -1,0 +1,172 @@
+.create-event-div-main {
+    padding: 40px;
+    padding-top: 20px;
+}
+
+.create-event-heading {
+    background-color: #fff;
+    font-family: 'poppins';
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    margin-bottom: 20px;
+    padding: 1rem 2.5rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.create-event-div {
+    font-family: 'poppins';
+    border: 1px solid transparent;
+    background-color: #fff;
+    border-radius: 1rem;
+    width: 100%;
+    height: 85%;
+    font-size: 1.1rem;
+}
+
+.div-privacy{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding: 2rem 2.5rem;
+    flex-direction: row;
+
+}
+.div-privacy label{
+    padding-right: 1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.0.8);
+}
+.div-privacy > select {
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 1rem;
+
+}
+.div-privacy > select:focus {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.div1-main {
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    height: auto;
+    padding: 2rem 2.5rem;
+}
+.div2, .div3 {
+    background-color: transparent;
+    /* border: 1px solid black; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.div2 {
+    padding-right: 1rem;
+}
+.div3 {
+    padding-left: 1rem;
+}
+.div2 > div, .image-div, .div3 > div {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    border-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+    /* width: 50%; */
+    margin-bottom: 30px;
+}
+
+.div1-main label {
+    padding-right: 1rem;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.0.8);
+}
+.div2 > div > input, .div3 > div > input {
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    outline: 0;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    font-family: 'poppins';
+}
+.div2 > div:nth-child(2), .div2 > div:first-child {
+    display: flex;
+    flex-direction: row;
+}
+.div2 > div:nth-child(2) > input, .div2 > div:first-child > input, .div-privacy > select {
+    flex-grow: 1;
+}
+.div2 > div:nth-child(2) > label, .div2 > div:first-child > label, .div-privacy > label {
+    margin: auto;
+}
+
+.div1-main > div > div> input {
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.div1-main > div > div > input:focus {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.div2 > div:nth-child(2) > textarea {
+    flex-grow: 1;
+    font-size: 0.9rem;
+    resize: none;
+    outline: none;
+    overflow: auto;
+    font-family: 'poppins';
+    padding: 0.5rem 1rem;
+    border: 1px dashed rgba(0, 0, 0, 0.2);
+    border-radius: 0.5rem;
+    height: 16rem;
+}
+.div2 > div:nth-child(2) {
+    height: 100%;
+}
+.div2 > div:nth-child(2) > textarea:focus {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+input[type="file"] {
+    display: none;
+}
+.browse-btn-in::-webkit-file-upload-button {
+    display: none;
+}
+.browse-btn {
+    cursor: pointer;
+    border-radius: 1rem;
+    padding: 10px 20px;
+    background-color: rgb(255, 72, 72);
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+.browse-btn:hover {
+    background-color: rgb(255, 40, 40);
+}
+
+.div3 > div:last-child {
+    padding: 0;
+    border: 1px solid transparent;
+    background-color: transparent;
+    width: auto;
+}
+.div3 > div:last-child > .submit-btn {
+    padding: 1rem 2rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    background-color: #6528F7;
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+    width: 100%;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.div3 > div:last-child > .submit-btn:hover {
+    background-color: #4c00ff;
+}

@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+#navbar{
+    display: flex;
+    gap: 70px;
+}
+
+ul {
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a {
+    text-decoration: none;
+    color: white;
+}
+

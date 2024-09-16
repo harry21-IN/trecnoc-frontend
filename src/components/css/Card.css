@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    /* color: white; */
+    background-color: rgb(17, 17, 17);
+    border-radius: 3rem;
+    width: 23%;
+    margin-left: 17px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    height: 320px;
+    transition: transform 0.4s ease, background-color 0.4s ease, box-shadow 0.4s ease;
+    overflow: hidden;
+    position: relative;
+}
+
+/* .card:hover:before {
+    opacity: 1;
+} */
+
+/* .card-text > h2, .card-text > p {
+    margin-top: 12px;
+    font-size: 100%;
+    color: white;
+    text-align: center;
+} */
+
+.cardin {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    
+  }
+
+  .tn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+    
+  }
+
+  .cardin {
+    transform: translateY(-100%);
+    
+  }
+  .card:hover .cardin {
+    transform: translateY(0%);
+
+  }
+
+/* a {
+    text-decoration: none;
+    color: white;
+} */
+
+.card-text {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(1px);
+    /* color: #fff; */
+  }
+.card-text > h2 {
+    color: white;
+    margin-top: 30px;
+    font-size: 40px;
+    text-align: center;
+  }
+.card-text > .carddesc {
+    margin-top: 0px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    overflow-wrap: break-word0;
+}
+.card-text > .timecard {
+    margin-top: 0px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.card-text > .cardsignups {
+    margin-top: 0px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+    
+}

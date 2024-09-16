@@ -1,0 +1,236 @@
+.main-nav-div {
+  height: fit-content!important;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: rgba(111, 111, 111, 0.442);
+    backdrop-filter: blur(7px);
+    position: fixed;
+    /* width: 60%; */
+    align-self: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    top: 5%;
+    /* transform: translateX(70%);  jugaad */
+    border-radius: 2rem;
+    z-index: 3;
+}
+
+.light {
+  color: #ffffff66;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  font-family: 'Quicksand', sans-serif;
+  border: none;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  vertical-align: middle;
+  background-color: transparent;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+.light:hover {
+  /* border: 1px solid white; */
+  color: white;
+  /* background-color: black; */
+}
+.light:active {
+  background-color: #2d2d2d76;
+}
+
+.dark {
+  color: #ffffff;
+}
+
+.login {
+  color: #ffffff66;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  vertical-align: middle;
+  background-color: transparent;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: 0.1s ease-in-out;
+}
+.login:hover {
+  color: white;
+  /* box-shadow: 0 2px 4px rgba(0, 255, 81, 0.705); */
+}
+.login:active {
+  background-color: #2d2d2d76;
+  transform: scale(.9,.9) translateY(-1%);
+}
+.login-zz {
+  position: absolute;
+  top: 5%;
+  padding: 12px;
+  border-radius: 2rem;
+  right: 3%;
+  z-index: 3;
+}
+.brand-logo {
+  color: white;
+  position: absolute;
+  top: 4%;
+  font-size: 2.5rem;
+  font-weight: bold;
+  left: 5%;
+  padding-top: 1rem;
+}
+
+
+.navbar-nav1 {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.3rem;
+    font-size: 16px;
+}
+.navbar-nav1 {
+  margin-left: 10px;
+}
+
+.nav-item {
+    margin-left: 1rem;
+}
+
+.btn-secondary {
+    background-color: #0077cc;
+    color: white;
+}
+
+/* .g-btn {
+  background-color: transparent;
+  border: 10px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.login-dropdown {
+  position: absolute;
+  top: 70px;
+  right: 19px;
+  width: fit-content;
+  z-index: 3;
+}
+.f-color {
+  color: #ffffff66;
+}
+/* DropDown-Menu for features*/
+.dropdown-menu {
+    position: absolute;
+    top: 74px;
+    left: 0;
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(30,30,30,0.5);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: dropdown 0.5s ease;
+    gap: 60px;
+  }
+ 
+.dropdown-link {
+    margin: 10px 0;
+    font-size: 20px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+.dropdown-link:hover {
+    border: 1px solid transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    background-color: rgba(255,255,255,0.2);
+}
+  
+
+  @keyframes dropdown {
+    from {
+      transform: translateY(-100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+/* DropDown menu for pricing */
+.pricing-dropdown {
+    position: absolute;
+    top: 74px;
+    left: 0;
+    width: 100%;
+    height: 85vh;
+    background-color: rgb(30,30,30,0.5);
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: dropdown 0.5s ease;
+    gap: 15px;
+  }
+  
+  .pricing-container {
+    height: 300px;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: 0.3s;
+    border: 1px solid transparent;
+    transition: 0.5s ease-out;
+  }
+  
+  .pricing-container:hover {
+    border: 1px solid white;
+    transform: scale(1.08);
+  }
+
+  .pricing-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .pricing-container ul {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: left;
+  }
+  
+  .pricing-container li {
+    margin-bottom: 10px;
+  }
+  
+  .pricing-container button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pricing-container button:hover {
+    background-color: #0062cc;
+  }
+  
+

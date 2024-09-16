@@ -1,0 +1,46 @@
+.event-box1 {
+    position: relative;
+    background: linear-gradient(to right, #91eae4, #86a8e7);
+    /* background-color: #121316; */
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+}
+
+.create-btn1 {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    padding: 1rem 1.5rem;
+    background-color: #6528F7;
+    font-family: 'poppins';
+    font-size: 1.2rem;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.create-btn1:active {
+    background-color: #4c00ff;
+}
+
+.event-box1 > span:nth-child(2) {
+    font-size: 1.2rem;
+    margin-left: 40px;
+    font-family: 'poppins';
+    background-color: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    position: absolute;
+}
+
+.event-box1 > span > span:last-child {
+    background-color: #F31559;
+    border-radius: 0.5rem;
+    font-weight: 400;
+    padding: 2px 4px;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
